@@ -1,7 +1,7 @@
 import telebot
 from greenlylogic import craft_xmas_ball, sorting, time_decomposition_of, about
 
-token = "8053418554:AAEsArDlcqPvnf2oxMXeySX4HZiVEPNe6Ic"
+token = ""
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
